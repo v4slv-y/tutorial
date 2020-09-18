@@ -10,3 +10,5 @@ virtual void move(int dx,int dy) { hide(); pw->position(loc.x+=dx, loc.y+=dy); s
         Callback do_it;
 
         virtual ~Widget() { }
+		
+		virtual changes!!!
