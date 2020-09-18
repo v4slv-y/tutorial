@@ -1,0 +1,12 @@
+virtual void move(int dx,int dy) { hide(); pw->position(loc.x+=dx, loc.y+=dy); show(); }
+        virtual void hide() { pw->hide(); }
+        virtual void show() { pw->show(); }
+        virtual void attach(Window&) = 0;
+
+        Point loc;
+        int width;
+        int height;
+        string label;
+        Callback do_it;
+
+        virtual ~Widget() { }
