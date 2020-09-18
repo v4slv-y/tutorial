@@ -14,3 +14,5 @@ virtual void move(int dx,int dy) { hide(); pw->position(loc.x+=dx, loc.y+=dy); s
 		virtual changes!!!
 		
 		my branch changes
+		
+substract changes
